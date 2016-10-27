@@ -1,0 +1,25 @@
+{
+  "name": "my_first_node_server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "browserify": "browserify src/scripts/server/webapp/app.js -o src/scripts/server/webapp/compile.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martin-banks/my_first_node_server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/martin-banks/my_first_node_server/issues"
+  },
+  "homepage": "https://github.com/martin-banks/my_first_node_server#readme",
+  "dependencies": {
+    "browserify": "^13.1.1",
+    "event-emitter": "^0.3.4"
+  }
+}
