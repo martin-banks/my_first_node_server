@@ -19,7 +19,10 @@
   },
   "homepage": "https://github.com/martin-banks/my_first_node_server#readme",
   "dependencies": {
+    "body-parser": "^1.15.2",
     "browserify": "^13.1.1",
-    "event-emitter": "^0.3.4"
+    "event-emitter": "^0.3.4",
+    "express": "^4.14.0",
+    "multer": "^1.2.0"
   }
 }
